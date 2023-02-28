@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var imageViews: [UIImageView]!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func didTapLoadButton(_ sender: UIButton) {
+        print(sender.tag, "th button clicked!")
+    }
+    
 }
 
