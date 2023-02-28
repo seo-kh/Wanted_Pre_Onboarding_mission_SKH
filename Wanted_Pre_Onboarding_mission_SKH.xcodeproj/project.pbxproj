@@ -13,6 +13,7 @@
 		AAA27DAE29AD962600AC3F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA27DAC29AD962600AC3F92 /* Main.storyboard */; };
 		AAA27DB029AD962800AC3F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA27DAF29AD962800AC3F92 /* Assets.xcassets */; };
 		AAA27DB329AD962800AC3F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA27DB129AD962800AC3F92 /* LaunchScreen.storyboard */; };
+		AAA27DBD29AD9F3000AC3F92 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA27DBC29AD9F3000AC3F92 /* DogAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AAA27DAF29AD962800AC3F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAA27DB229AD962800AC3F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA27DB429AD962800AC3F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA27DBC29AD9F3000AC3F92 /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AAA27DA629AD962600AC3F92 /* AppDelegate.swift */,
 				AAA27DA829AD962600AC3F92 /* SceneDelegate.swift */,
 				AAA27DAA29AD962600AC3F92 /* ViewController.swift */,
+				AAA27DBC29AD9F3000AC3F92 /* DogAPI.swift */,
 				AAA27DAC29AD962600AC3F92 /* Main.storyboard */,
 				AAA27DAF29AD962800AC3F92 /* Assets.xcassets */,
 				AAA27DB129AD962800AC3F92 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				AAA27DAB29AD962600AC3F92 /* ViewController.swift in Sources */,
 				AAA27DA729AD962600AC3F92 /* AppDelegate.swift in Sources */,
 				AAA27DA929AD962600AC3F92 /* SceneDelegate.swift in Sources */,
+				AAA27DBD29AD9F3000AC3F92 /* DogAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
